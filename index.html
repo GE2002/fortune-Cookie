@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortune Cookie</title>
+    <link rel="stylesheet" href="fortune.css">
+</head>
+
+<body>
+    <!-- This is the main box for my whole Fortune Cookie widget. -->
+    <main class="fortune-cookie-widget" aria-label="Fortune Cookie">
+        
+        <button id="fortune-button" type="button" aria-controls="fortune-paper">
+            <img src="images/assets/bar.png" alt="Click me">
+        </button>
+
+    
+        <button id="fortune-paper" type="button" aria-label="Show another fortune">
+            <span id="fortune-text" aria-live="polite"></span>
+        </button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
